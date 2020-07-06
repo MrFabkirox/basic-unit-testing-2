@@ -1,0 +1,22 @@
+{
+  "name": "basic-unit-testing-2",
+  "version": "1.0.0",
+  "description": "~/workspace/test",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha index.test.js --exit",
+    "coverage": "istanbul cover /Users/fab/workspace/test/jessewarden/basic-unit-testing-2/node_modules/mocha/bin/_mocha index.test.js -x *.test.js",
+    "showcoverage": "open coverage/lcov-report/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^7.1.2"
+  },
+  "dependencies": {
+    "lodash": "^4.17.15"
+  }
+}
