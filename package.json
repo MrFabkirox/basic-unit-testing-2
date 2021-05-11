@@ -17,6 +17,6 @@
     "mocha": "^7.1.2"
   },
   "dependencies": {
-    "lodash": "^4.17.15"
+    "lodash": "^4.17.21"
   }
 }
